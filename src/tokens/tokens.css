@@ -1,0 +1,33 @@
+:root {
+  /* Tema claro */
+  --color-primary: #003366;
+  /* texto sobre blocos de cor claros deve ser escuro para garantir contraste */
+  --color-primaryText: #0b2545;
+  --color-secondary: #d4af37;
+  --color-secondaryText: #222222;
+  --color-ghostBorder: #e0e0e0;
+  --color-ghostText: #222222;
+  --color-background: #fafafa;
+
+  --color-success: #007e33;
+  --color-error: #c62828;
+  --color-warning: #ffa000;
+  --color-info: #1565c0;
+}
+
+.dark {
+  /* Tema escuro */
+  --color-primary: #d4af37;
+  /* texto sobre blocos escuros deve ser claro para garantir contraste */
+  --color-primaryText: #f8fafc;
+  --color-secondary: #003366;
+  --color-secondaryText: #ffffff;
+  --color-ghostBorder: #4f4f4f;
+  --color-ghostText: #ffffff;
+  --color-background: #121212;
+
+  --color-success: #007e33;
+  --color-error: #c62828;
+  --color-warning: #ffa000;
+  --color-info: #1565c0;
+}

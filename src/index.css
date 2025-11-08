@@ -1,0 +1,11 @@
+@import './tokens/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primaryText);
+  font-family: 'Open Sans', sans-serif;
+}
