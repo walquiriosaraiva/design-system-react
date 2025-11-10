@@ -1,8 +1,8 @@
-import { Alert } from '@components/Alert'
-import { Dialog } from '@components/Dialog'
+import { Alert } from '@components/Alert/Alert'
+import { Dialog } from '@components/Dialog/Dialog'
 import { Input } from '@components/Input'
 import { useState } from 'react'
-import { Button } from './components/Button'
+import { Button } from './components/Button/Button'
 
 function App() {
   const [isDialogOpen, setIsDialogOpen] = useState(false)

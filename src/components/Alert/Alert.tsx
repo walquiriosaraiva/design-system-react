@@ -3,7 +3,7 @@ import { tokens } from '@tokens/tokens'
 import clsx from 'clsx'
 import * as React from 'react'
 
-interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'success' | 'error' | 'warning' | 'info'
   title?: string
 }

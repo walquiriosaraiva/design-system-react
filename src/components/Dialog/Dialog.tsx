@@ -1,8 +1,8 @@
+import { useTheme } from '@hooks/useTheme'
+import { tokens } from '@tokens/tokens'
 import * as React from 'react'
-import { useTheme } from '../hooks/useTheme'
-import { tokens } from '../tokens/tokens'
 
-interface DialogProps {
+export interface DialogProps {
   isOpen: boolean
   onClose: () => void
   title?: string

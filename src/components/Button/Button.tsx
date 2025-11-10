@@ -1,10 +1,10 @@
+import { useTheme } from '@hooks/useTheme'
+import { tokens } from '@tokens/tokens'
 import clsx from 'clsx'
 import * as React from 'react'
-import { useTheme } from '../hooks/useTheme'
-import { tokens } from '../tokens/tokens'
-import { getContrastColor } from '../utils/color'
+import { getContrastColor } from '../../utils/color'
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost'
   isLoading?: boolean
   children?: React.ReactNode

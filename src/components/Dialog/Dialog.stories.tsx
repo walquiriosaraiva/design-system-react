@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { useState } from 'react'
-import { Button } from './Button'
+import { Button } from '../Button/Button'
 import { Dialog } from './Dialog'
 
 const meta = {
-  title: 'Components/Dialog',
+  title: 'Components/Feedback/Dialog',
   component: Dialog,
   parameters: {
     layout: 'centered'

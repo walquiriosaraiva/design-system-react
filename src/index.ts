@@ -1,5 +1,5 @@
-export * from '@components/Alert' // 👈 novo componente
-export * from '@components/Button'
+export * from '@components/Alert/Alert' // 👈 novo componente
+export * from '@components/Button/Button'
 
 export * from '@hooks/useTheme'
 export * from '@tokens/tokens'
